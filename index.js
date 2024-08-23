@@ -123,7 +123,7 @@ document.getElementById('calculate').addEventListener('click', function () {
     let a = parseFloat(document.getElementById('a').value);
     let b = parseFloat(document.getElementById('b').value);
     let c = parseFloat(document.getElementById('c').value);
-    let wordProblem = document.getElementById('wordProblem').value.trim();
+    // let wordProblem = document.getElementById('wordProblem').value.trim();
     let solutionDiv = document.getElementById('solution');
 
     // Function to extract numbers from a string
